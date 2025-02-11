@@ -34,7 +34,7 @@
     "browser-image-compression": "^2.0.2",
     "chart.js": "^4.4.7",
     "dotenv": "^16.4.7",
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.25.0",
     "franc": "^6.2.0",
     "graphql": "^16.10.0",
     "next": "^15.1.6",
