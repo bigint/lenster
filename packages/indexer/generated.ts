@@ -3246,7 +3246,7 @@ export type MediaAudio = {
   cover?: Maybe<Scalars['URI']['output']>;
   /** The credits for the audio. */
   credits?: Maybe<Scalars['String']['output']>;
-  /** How long the the audio is in seconds. */
+  /** How long the audio is in seconds. */
   duration?: Maybe<Scalars['Int']['output']>;
   /** The genre of the audio */
   genre?: Maybe<Scalars['String']['output']>;
@@ -3421,7 +3421,7 @@ export type MediaSnapshotNotificationAttributes = {
  * "$ref": "#/$defs/EncryptableUri"
  * },
  * "duration": {
- * "description": "How long the the video is in seconds",
+ * "description": "How long the video is in seconds",
  * "type": "integer",
  * "exclusiveMinimum": 0.0
  * },
@@ -3464,7 +3464,7 @@ export type MediaVideo = {
    */
   attributes: Array<MetadataAttribute>;
   cover?: Maybe<Scalars['URI']['output']>;
-  /** How long the the video is in seconds */
+  /** How long the video is in seconds */
   duration?: Maybe<Scalars['Int']['output']>;
   item: Scalars['URI']['output'];
   /** The license for the video */
